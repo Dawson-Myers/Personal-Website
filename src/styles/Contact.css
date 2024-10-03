@@ -1,0 +1,62 @@
+/* Contact.css */
+@media (max-width: 768px) {
+    /* Adjust padding and font sizes */
+    .skills ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .projects .project-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact form {
+      width: 90%;
+    }
+  }
+  
+
+.contact {
+    padding: 60px 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #34495e;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  .contact form button {
+    padding: 15px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .contact form button:hover {
+    background-color: #2980b9;
+  }
+  
